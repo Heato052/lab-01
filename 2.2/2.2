@@ -1,14 +1,1 @@
-Name = str((input("Введите ваше имя: ")))
-Age = int(input("Введите ваш возраст: "))
-SchoolNum = int(input("Введите номер школы: "))
-ClassNum = int(input("Какой класс окончил: "))
-EndSchool = ("")
-if ClassNum == 11:
-   	 EndSchool = 2024 - (Age - 18)
-else:
-   	 EndSchool = 2024 - (Age - 16)
-print(
-f'''Привет {Name}!
 
-Поздравляю с окончанием {ClassNum} класса школы №{SchoolNum} 
-в {EndSchool} году.''')
